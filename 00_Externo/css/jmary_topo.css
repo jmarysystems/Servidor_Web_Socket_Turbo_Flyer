@@ -1,0 +1,78 @@
+/*fonts*/
+    @font-face {   
+        font-family: 'arena-condensed';   
+        src: url('https://sites.google.com/site/carmalmadeirasfonts/arena-condensed-webfont.woff');
+        font-weight: normal;   
+        font-style: normal;
+    }
+/*fonts*/
+            
+/*topo*/
+    .topo_geral               { background: url(https://sites.google.com/site/jmarysystemsimagens/fundo-topo.jpg) no-repeat scroll center 0; }
+    .topo                     { height: 142px; margin: 0 auto; padding: 0; width: 100%;}  
+    .custom-logo              { float: left;  height: 100%;  }
+    .custom-informacoes       { float: right; height: 100%;   }
+    .custom-informacoes table { width: 254px;    margin: 0 0 0 0;    text-align: right;}
+    .fone td:nth-child(1)     {}
+    .fone img                 { margin:0 0 0 0; }
+    .fone                     { color: #FFFFFF; font-family: Arial, Helvetica, sans-serif; font-size: 31px; }
+    .icon-redesocial          { float: right; padding:0; width:138px;}
+/*topo*/    
+ 
+/*menu*/
+    .ocultarverdemenu1        { visibility: hidden;                          }
+    .imagemverde              { margin-bottom: 1px; width: 90%; height: 3px; }
+    .btmenu                   { padding-top: 14px; padding-left: 15px; padding-right: 15px;
+                                    text-decoration:none; color:#FFFFFF; 
+                                    font-family: Arial, Helvetica, sans-serif; font-size: 19px; 
+                              }
+/*menu*/                                              
+            
+@media (min-width : 980px) {
+    /*topo*/
+        .custom-informacoes table { margin: 25px 0 0 0; }
+        .icon-redesocial          { margin: 28px 0 0 0;	}
+    /*topo*/
+                  
+    /*menu*/
+        #menu1 { display: block; }
+        #menu2 { display: none; }
+    /*menu*/
+}
+@media (min-width : 980px) and (max-width : 1024px) {
+    /*topo*/
+        .topo{ width: auto;}
+    /*topo*/    
+}
+@media (max-width : 980px) {
+    /*topo*/
+        .topo_geral { background: url(https://sites.google.com/site/jmarysystemsimagens/fundo-topo.jpg) no-repeat scroll -1354px 0; }
+        .topo       { width: auto;}                  
+        .custom-informacoes table { margin: 28px 0 0 0; }
+        .icon-redesocial          { margin: 10px 0 0 0;	}
+    /*topo*/
+    
+    /*menu*/
+        #menu1 { display: none; }
+        #menu2 { display: block; }
+    /*menu*/
+}
+@media (max-width : 570px) { 
+    /*topo*/
+        .topo_geral               { background: url(https://sites.google.com/site/jmarysystemsimagens/fundo-topo.jpg) no-repeat scroll -1491px 0 ; }
+        .topo                     { height: 98px;}
+        .custom-logo img          { max-width: 147px;	}                
+        .fone                     { font-size: 29px;    text-align: right; }
+         .custom-informacoes table{ margin: 0 0 0 0; text-align: right;    width: 254px;}
+        .icon-redesocial          { margin: 0 0 0 0; float: right;	}
+    /*topo*/
+}
+@media (max-width : 418px) {
+    /*topo*/
+        .custom-informacoes { display: none;  }
+    /*topo*/
+}
+            
+            
+            
+

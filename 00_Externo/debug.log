@@ -1,0 +1,4 @@
+[1102/194815.914:WARNING:minidump_to_upload_parameters.cc(66)] duplicate annotation name metrics_client_id, discarding value f07c816f89fc46ecbaff91c63767bc57
+[1102/194817.350:WARNING:minidump_to_upload_parameters.cc(66)] duplicate annotation name metrics_client_id, discarding value f07c816f89fc46ecbaff91c63767bc57
+[1102/194827.931:ERROR:http_transport_win.cc(273)] WinHttpSendRequest: O nome ou o endereço do servidor não pôde ser resolvido (0x2ee7)
+[1102/194829.388:ERROR:http_transport_win.cc(273)] WinHttpSendRequest: O nome ou o endereço do servidor não pôde ser resolvido (0x2ee7)

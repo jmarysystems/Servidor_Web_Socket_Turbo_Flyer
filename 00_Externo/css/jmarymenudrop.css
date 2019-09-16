@@ -1,0 +1,90 @@
+ul.dropdown li:hover{ 
+
+  background: #23871C;
+}
+
+ul.dropdown li a { 
+  display: block; 
+  padding: 11px 8px;
+  color: #fff; 
+  position: relative; 
+  
+  text-align: center;
+  text-decoration: none;
+  
+}
+
+ul.dropdown li a:hover,
+ul.dropdown li a.hover{ 
+  
+  position: relative;
+  color: #fff;
+}
+
+
+ul.dropdown ul{ 
+ display: none;
+ position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 180px; 
+  
+}
+
+ul.dropdown ul li { 
+  font-weight: normal; 
+  background: #f6f6f6; 
+  color: #fff; font-family: Arial, Helvetica, sans-serif; font-size: 19px;
+  border-bottom: 1px solid #fff; 
+}
+
+ul.dropdown ul li a{ 
+  display: block; 
+  color: #fff;
+  background: #3A3A3A;
+} 
+
+ul.dropdown ul li a:hover{
+  display: block; 
+  background: #3498db !important;
+  color: #fff;
+} 
+
+.drop > a{
+  position: relative;
+}
+
+.drop > a:after{
+  content:"";
+  position: absolute;
+  right: 5px;
+  top: 40%;
+  border-left: 5px solid transparent;
+  border-top: 5px solid #fff;
+  border-right: 5px solid transparent;
+  z-index: 999;
+}drop > a:hover:after{
+  content:"";
+   border-left: 5px solid transparent;
+  border-top: 5px solid #fff;
+  border-right: 5px solid transparent;
+}
+
+.drop > a:hover:after{
+  content:"";
+   border-left: 5px solid transparent;
+  border-top: 5px solid #fff;
+  border-right: 5px solid transparent;
+}
+
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 5px solid;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+}
+
